@@ -1,0 +1,26 @@
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v312
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v313
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\plupload_last_gc_dynamic
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316rc1.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v31x\v316rc1.
+[INFO] Installed Schema: \phpbb\db\migration\data\v31x\v316rc1; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v312
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v313
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\plupload_last_gc_dynamic
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316rc1.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v31x\v316rc1.
+[INFO] Installed Data: \phpbb\db\migration\data\v31x\v316rc1; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v312
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v313
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\plupload_last_gc_dynamic
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v31x\v316.
+[INFO] Installed Schema: \phpbb\db\migration\data\v31x\v316; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v312
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\v313
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v31x\plupload_last_gc_dynamic
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v31x\v316.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v31x\v316.
+[INFO] Installed Data: \phpbb\db\migration\data\v31x\v316; Time: 0.00 seconds

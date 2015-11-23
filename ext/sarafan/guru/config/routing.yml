@@ -1,0 +1,3 @@
+guru_bisys_payment:
+    pattern: /sarafan/guru/api/payment/bisys
+    defaults: { _controller: sarafan.guru.controller.payment:bisys}

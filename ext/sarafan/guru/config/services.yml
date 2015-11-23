@@ -1,0 +1,27 @@
+services:
+    sarafan.guru.helper.database:
+        class: sarafan\guru\helper\Database
+        arguments:
+            - @dbal.conn
+    sarafan.guru.helper.payment.bisys:
+        class: sarafan\guru\helper\payment\Bisys
+        arguments:
+            - @sarafan.guru.helper.database
+    sarafan.guru.controller.payment:
+        class: sarafan\guru\controller\Payment
+        arguments:
+            - @config
+            - @request
+            - @template
+            - @controller.helper
+            - @sarafan.guru.helper.database
+            - %core.root_path%
+            - %core.php_ext%
+    sarafan.guru.register:
+        class: sarafan\guru\event\Listener
+        arguments:
+            - @sarafan.guru.helper.database
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }

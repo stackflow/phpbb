@@ -1,0 +1,25 @@
+{
+  "name": "sarafan/guru",
+  "type": "phpbb-extension",
+  "description": "Cooperative Purchases",
+  "homepage": "http://sarafan.guru",
+  "version": "0.0.4",
+  "time": "2015-04-09",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Eugeny Kostarev",
+      "homepage": "http://stackflow.net",
+      "role": "Software Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "extra": {
+    "display-name": "sarafan.guru",
+    "soft-require": {
+      "phpbb/phpbb": "3.1.*@dev"
+    }
+  }
+}

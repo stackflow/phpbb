@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+    <params>{{ sarafan.params }}</params>
+    {% if sarafan.sign %}
+        <sign>{{ sarafan.sign }}</sign>
+    {% endif %}
+</response>
